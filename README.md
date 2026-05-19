@@ -1,3 +1,13 @@
+> 🎓 **学习分支: learn-02-trace**
+>
+> Trace 采集与查询 API、Redis pub/sub、SSE 实时推送
+>
+> **本分支聚焦**: 后端核心 — runs/projects/stream 路由、Pydantic Schema、与官方 SDK 兼容的 HTTP 协议、过滤查询、子 span 树
+>
+> **切换到完整代码**: `git checkout master`
+>
+> ---
+
 # LangSmith Simple
 
 一个简化版 [LangSmith](https://smith.langchain.com/) 克隆，聚焦本地可运行的 **Trace 可视化**、**Playground** 和 **Deployments** 三大核心功能。
