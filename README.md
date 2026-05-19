@@ -1,3 +1,13 @@
+> 🎓 **学习分支: learn-03-playground**
+>
+> Playground LLM 代理、多 Provider 路由、流式响应
+>
+> **本分支聚焦**: Playground 模块 — OpenAI/Anthropic/DeepSeek/Qwen 多供应商适配、异步 HTTP 代理、SSE chunk 转发
+>
+> **切换到完整代码**: `git checkout master`
+>
+> ---
+
 # LangSmith Simple
 
 一个简化版 [LangSmith](https://smith.langchain.com/) 克隆，聚焦本地可运行的 **Trace 可视化**、**Playground** 和 **Deployments** 三大核心功能。
