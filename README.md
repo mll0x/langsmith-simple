@@ -1,3 +1,13 @@
+> 🎓 **学习分支: learn-06-sdk**
+>
+> Python SDK — Client、RunTree、@traceable 装饰器
+>
+> **本分支聚焦**: SDK 开发 — httpx HTTP 客户端、环境变量自动读取、函数装饰器自动 trace、RunTree 手动嵌套 span
+>
+> **切换到完整代码**: `git checkout master`
+>
+> ---
+
 # LangSmith Simple
 
 一个简化版 [LangSmith](https://smith.langchain.com/) 克隆，聚焦本地可运行的 **Trace 可视化**、**Playground** 和 **Deployments** 三大核心功能。
