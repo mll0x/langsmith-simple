@@ -1,0 +1,36 @@
+[project]
+name = "langsmith-simple-workspace"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "langsmith-simple",
+    "langsmith-simple-sdk",
+]
+
+[tool.uv.workspace]
+members = ["backend", "sdk/python"]
+
+[tool.uv.sources]
+langsmith-simple = { workspace = true }
+langsmith-simple-sdk = { workspace = true }
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6",
+    "mypy>=1.10",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[tool.ruff]
+target-version = "py312"
+lint.select = ["E", "F", "I", "UP", "T201"]
+lint.ignore = ["UP007", "UP045"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+ignore_missing_imports = true
+disallow_untyped_defs = true
