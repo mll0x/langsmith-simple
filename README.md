@@ -1,3 +1,13 @@
+> 🎓 **学习分支: learn-01-infra**
+>
+> 项目初始化、docker-compose、SQLAlchemy 模型设计、Alembic 数据库迁移
+>
+> **本分支聚焦**: 基础设施搭建 — uv monorepo、PostgreSQL + Redis 容器、5 张核心表的设计与迁移
+>
+> **切换到完整代码**: `git checkout master`
+>
+> ---
+
 # LangSmith Simple
 
 一个简化版 [LangSmith](https://smith.langchain.com/) 克隆，聚焦本地可运行的 **Trace 可视化**、**Playground** 和 **Deployments** 三大核心功能。
