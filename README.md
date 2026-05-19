@@ -1,3 +1,13 @@
+> 🎓 **学习分支: learn-04-deployments**
+>
+> 本地部署管理、子进程生命周期、端口分配、日志捕获
+>
+> **本分支聚焦**: Deployments 模块 — subprocess.Popen 管理、自动入口检测(langgraph.json/main.py/app.py)、环境变量注入、日志 SSE
+>
+> **切换到完整代码**: `git checkout master`
+>
+> ---
+
 # LangSmith Simple
 
 一个简化版 [LangSmith](https://smith.langchain.com/) 克隆，聚焦本地可运行的 **Trace 可视化**、**Playground** 和 **Deployments** 三大核心功能。
