@@ -1,3 +1,13 @@
+> 🎓 **学习分支: learn-05-frontend**
+>
+> Vite + React 19 + TypeScript + Tailwind CSS v4 完整前端
+>
+> **本分支聚焦**: 前端实现 — TanStack Query 数据获取、React Router 路由、暗色主题、Trace 列表/详情/Playground/Deployments 四页面
+>
+> **切换到完整代码**: `git checkout master`
+>
+> ---
+
 # LangSmith Simple
 
 一个简化版 [LangSmith](https://smith.langchain.com/) 克隆，聚焦本地可运行的 **Trace 可视化**、**Playground** 和 **Deployments** 三大核心功能。
