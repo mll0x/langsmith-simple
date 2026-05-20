@@ -12,7 +12,7 @@ function NavItem({ to, icon: Icon, label }: { to: string; icon: React.ElementTyp
       className={({ isActive }) =>
         `flex items-center gap-2.5 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
           isActive
-            ? 'bg-accent/10 text-accent-light'
+            ? 'bg-accent/10 text-accent'
             : 'text-text-secondary hover:text-text hover:bg-surface-hover'
         }`
       }
@@ -26,7 +26,7 @@ function NavItem({ to, icon: Icon, label }: { to: string; icon: React.ElementTyp
 export default function AppLayout({ children }: AppLayoutProps) {
   return (
     <div className="flex h-screen bg-bg">
-      <aside className="w-56 border-r border-border bg-surface flex flex-col">
+      <aside className="w-56 border-r border-border bg-bg flex flex-col">
         <div className="px-4 py-4 flex items-center gap-2 border-b border-border">
           <Workflow className="text-accent" size={22} />
           <span className="font-semibold text-text">LangSmith Simple</span>
